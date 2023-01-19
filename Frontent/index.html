@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet"/>
+    <title>Foody</title>
+  </head>
+  <body>
+    <main>
+      <div class="main-section">
+        <header>
+            <div class="main-title">
+              <div class="main-title-text">
+                <h1 class="main-title-jacer">Jager Resto</h1>
+                <span class="Date"></span> 
+                <!-- <span class="clock"></span> -->
+              </div>
+              <div class="main-title-searchbar">
+                <input class="hero__inp" type="text" placeholder="Search for food, coffe, etc..">
+                <img src="./images/search-icon.svg" alt="" />
+              </div>
+            </div>
+            <div class="menu-tabs">
+              <p class="btn" id="1"><button class="btn-btn">Hot Dishes</button></p>
+              <p class="btn" id="2"><button class="btn-btn">Cold Dishes</button></p>
+              <p class="btn" id="3"><button  class="btn-btn">Soup</button></p>
+              <p class="btn" id="4"><button class="btn-btn">Grill</button></p>
+              <p class="btn" id="5"><button class="btn-btn">Appetizer</button></p>
+              <p class="btn" id="6"> <button class="btn-btn">Dessert</button></p>
+            </div>
+          </header>
+          <div class="main-content">
+            <div class="main-content-title">
+              <h2>Choose Dishes</h2>
+              <select aria-label="select" name="select" class="main-content-dropdown">
+                <option value="CashOne">cheap</option>
+                <option value="CashTwo">average</option>
+                <option value="CashThree">expensive</option>
+              </select>
+              </div>
+            </div>
+            <div class="main-content-grid">
+              <!-- <div class="grid-item">
+                <img src="./images/food.png" alt="" />
+                <h3>Spicy seasoned seafood noodles</h3>
+                <p>$ 0</p>
+                <h4>20 Bowls availabel</h4>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="order">
+          <header>
+            <h2>#Orders 34562</h2>
+            <div class="order-header-selectors">
+              <p class="active-button">Dine In</p>
+              <p>To Go</p>
+              <p>Delivery</p>
+            </div>
+            <div class="order-header-info">
+              <p>Item</p>
+              <p>Qty</p>
+              <p>Price</p>
+            </div>
+        </header>  
+          <div class="order-content">
+            <div class="order-content-item">
+              <div class="order-item-description">
+                <img src="./images/food.png" alt="" />
+                <div>
+                  <h4>Spicy seasoned sea...</h4>
+                  <p>$ 0</p>
+                </div>
+                <p class="order-item-quantity">2</p>
+                <h4>$ 4,58</h4>
+              </div>
+              <div class="order-item-note">
+                <input aria-label="inp" type="text" placeholder="Order Note..." placeholder="Order Note..."/>
+                <div>
+                  <img src="./images/Trash.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="order-total">
+            <div class="order-disacount">
+              <p class="Disacount">Disacount</p>
+              <p class="CashS">$ 0</p>
+            </div>
+            <div class="order-subtotal">
+              <p class="subTotal">Sub Total</p>
+              <p class="allCash">$ 0</p>
+            </div>
+          </div>
+          <p class="order-payment">Continue To Payment</p>
+        </div>
+      </div>
+    </div>
+    </main>
+    <script src="./scripts/animations.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
